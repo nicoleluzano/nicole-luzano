@@ -1,0 +1,45 @@
+style.css
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 100px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgb(233, 136, 176) 0%, rgb(233, 136, 176) 100%);
+}
+
+}
+
+.profile-picture {
+    border-radius: 100%
+}
+
+.wrapper {
+    background-color: rgb(125, 235, 167);
+
+    max-width: 50%;
+    display: flex;
+    flex-direction: center;
+    height: 80%
+}
+
+.left, .right {
+    background-color: rgb(236, 127, 141);
+
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    border-radius: 50%
+}
